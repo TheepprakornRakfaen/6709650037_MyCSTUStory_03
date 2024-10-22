@@ -4,7 +4,9 @@
 }
 
 body{
-    background-color: black;
+    background-image: url("resource/Background/5dc350fb8ef7a2c3dbdb1e3d4bc44083.gif");
+    background-color: #cccccc;
+    
 }
 
 header{
@@ -25,17 +27,8 @@ header{
     display: inline-block;
 }
 
-#img1{
-    height: 50vh;
-    background-color: black;
-    background-image: url(resource/Background/ffd58af549a6d89d5f75ae2be8cadc0b.gif);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    color: white;
-    opacity: 60%;
-    
+.centerText{
+    padding: 100px;
 }
 
 #img2{
@@ -209,11 +202,14 @@ footer{
 }
 
 
-
-
-
-
+/* ************************************** Text - font ******************************************************************* */
+.CMDfont{
+    font-family: 'Courier New', Courier, monospace;
+    color: #fff;
+}
 
 
 /* ************************************** condition ******************************************************************* */
+
+
 
