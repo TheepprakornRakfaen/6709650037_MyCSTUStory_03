@@ -1,0 +1,211 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-image: url();
+    background-color: black;
+}
+
+header{
+    font-family: 'Courier New', Courier, monospace;
+    font-size:x-large;
+    padding: 30px;
+    color: white;
+    background-color: black;
+}
+
+
+.header-ul{
+    list-style: none;
+    float: right;
+}
+
+.header-ul-li{
+    display: inline-block;
+}
+
+#img1{
+    height: 50vh;
+    background-color: black;
+    background-image: url(resource/Background/ffd58af549a6d89d5f75ae2be8cadc0b.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    opacity: 60%;
+    
+}
+
+#img2{
+    height: 50vh;
+    background-color: black;
+    background-image: url(resource/Background/steamuserimages-a.akamaihd.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    opacity: 60%;
+    
+}
+
+#img3{
+    height: 50vh;
+    background-color: black;
+    background-image: url(resource/Background/Pxyz.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    opacity: 60%;
+    
+}
+
+#img1TEXT{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    padding-top: 140px;
+    position: relative;
+    font-size: 60px;
+}
+
+/* แถบด้านข้าง */
+
+nav {
+    float: left;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(18, 18, 18);
+    text-align: center;
+    width: 20%;
+    height: 100%;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0px;
+    
+}
+
+nav ul li {
+    display: block;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}
+
+.Topic{
+    font-size: 40px;
+    text-align: center;
+}
+.Topic-right{
+    font-size: 40px;
+    text-align: right;
+    margin-right: 20px;
+}
+.Topic-left{
+    font-size: 40px;
+    text-align: left;
+    margin-left: 20px;
+}
+
+/* พารากราฟ1 */
+.paragraph1{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: white;
+    text-align: center;
+    width: 80%;
+    float: left;
+    padding-top: 20px;
+}
+
+.paragraph1picture{
+    margin:20px;
+    float: left;
+    display: inline;
+    box-shadow: 5px 5px 5px gray;
+}
+
+.paragraphtext{
+    margin:20px;
+    text-align: left;
+    font-size: 20px;
+    
+}
+
+.mark-text{
+    font-weight: bold;
+}
+
+.paragraph2picture{
+    clear: both;
+    margin:20px;
+    float: right;
+    display: inline;
+    box-shadow: 5px 5px 5px gray;
+}
+
+footer{
+    clear: both;
+    width: 100%;
+}
+#div-video{
+    margin-bottom: 20px;
+}
+
+/* My journey */
+
+.paragraph3{
+    width: 100%;
+    background-color: white;
+    font-family: 'Courier New', Courier, monospace;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+.paragraph2picture{
+    margin:20px;
+    box-shadow: 5px 5px 5px gray;
+}
+
+.paragraph2picturegroup1{
+    float: left;
+}
+
+.paragraph2picturegroup2{
+    float: right;
+}
+
+footer{
+    clear: both;
+    /* width: 100%; */
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    color: gray;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* myfuture */
+
+.img4{
+    width: 400px;
+    height :170px;
+    text-align: center;
+    margin:20px;
+    box-shadow: 5px 5px 5px gray;
+}
+
