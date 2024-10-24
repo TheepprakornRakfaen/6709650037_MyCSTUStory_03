@@ -77,3 +77,29 @@
     <footer>
         <p>THANK YOU._</p>
     </footer>
+
+
+
+
+
+css
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0px;
+    
+}
+
+nav ul li {
+    display: block;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}

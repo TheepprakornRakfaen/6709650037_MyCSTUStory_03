@@ -66,36 +66,27 @@ header{
     font-size: 60px;
 }
 
-/* แถบด้านข้าง */
-
-nav {
-    float: left;
-    font-family: 'Courier New', Courier, monospace;
-    background-color: rgb(18, 18, 18);
-    text-align: center;
-    width: 20%;
-    height: 100%;
+.grid{
+    display: grid;
+    grid-template-columns: 3fr 7fr 2fr;
 }
 
-nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 0px;
-    
+.navmain {
+    background-color: wheat;
+    height: 100vh;
 }
 
-nav ul li {
-    display: block;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    
+.articlemain{
+    background-color: cadetblue;
+    height: 100vh;
 }
 
-nav ul li a {
-    text-decoration: none;
-    color: #fff;
-    font-size: 20px;
+.adsmain{
+    background-color: cadetblue;
+    height: 100vh;
 }
+
+
 
 .Topic{
     font-size: 40px;
@@ -211,5 +202,14 @@ footer{
 
 /* ************************************** condition ******************************************************************* */
 
+@media only screen and (max-width: 600px) {
+    .grid {
+        display: block;
+    }
+    .centerText{
+        padding: 50px;
+    }
+
+  }
 
 
