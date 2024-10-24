@@ -15,6 +15,7 @@ header{
     padding: 30px;
     color: white;
     background-color: black;
+    border-bottom: 1px solid white;
 }
 
 
@@ -71,19 +72,30 @@ header{
     grid-template-columns: 3fr 7fr 2fr;
 }
 
+.mainsection {
+    border-top: 1px solid white;
+}
+
 .navmain {
-    background-color: wheat;
+    text-align: center;
+    padding-top: 10px;
+    background-color: black;
     height: 100vh;
 }
 
 .articlemain{
-    background-color: cadetblue;
+    background-color: white;
     height: 100vh;
 }
 
 .adsmain{
-    background-color: cadetblue;
+    background-color: black;
     height: 100vh;
+}
+
+.navsidebar{
+    padding-bottom: 20px;
+    border-bottom: 1px solid white;
 }
 
 
@@ -209,7 +221,12 @@ footer{
     .centerText{
         padding: 50px;
     }
-
+    .navmain {
+        text-align: center;
+        padding-top: 10px;
+        background-color: black;
+        height: auto;
+    }
   }
 
 
