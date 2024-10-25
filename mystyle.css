@@ -35,14 +35,14 @@ header{
 
 #img2{
     border-radius: 10px;
-    width: 300px;
+    width: 400px;
     height: auto;
     margin-bottom: 20px;
 }
 
 #img3{
     border-radius: 10px;
-    width: 300px;
+    width: 400px;
     height: auto;
     margin-bottom: 10px;
 }
@@ -58,7 +58,7 @@ header{
 
 .grid{
     display: grid;
-    grid-template-columns: 3fr 7fr 2fr;
+    grid-template-columns: 3fr 9fr ;
 }
 
 .grid2{
@@ -93,7 +93,10 @@ header{
     border-bottom: 1px solid white;
 }
 
-
+.video{
+    width: 500px;
+    height: auto;
+}
 
 .Topic{
     font-size: 40px;
@@ -145,9 +148,6 @@ header{
 footer{
     clear: both;
     width: 100%;
-}
-#div-video{
-    margin-bottom: 20px;
 }
 
 /* ************************************** My journey ******************************************************************* */
@@ -202,19 +202,24 @@ footer{
     color: #fff;
 }
 .CMDfontheader{
+    font-size: 40px;
+    font-weight: bold;
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
     color: #000000;
 }
 
 .CMDfont2{
+    font-size: 20px;
     font-family: 'Courier New', Courier, monospace;
     color: #000000;
 }
 
 
+
 /* ************************************** condition ******************************************************************* */
 
+/* forphone */
 @media only screen and (max-width: 600px) {
 
     .grid {
@@ -232,8 +237,23 @@ footer{
         background-color: black;
         height: auto;
     }
+    #img2{
+        width: 300px;
+        height: auto;
+    }
+    
+    #img3{
+        width: 300px;
+        height: auto;
+    }
+    .video{
+        width: 300px;
+        height: auto;
+    }
+
   }
 
+  /* foripad */
   @media only screen and (max-width: 900px) {
     .grid2{
         display: block;
