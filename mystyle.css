@@ -49,7 +49,7 @@ header{
 
 #img2{
     border-radius: 10px;
-    width: 400px;
+    width: 300px;
     height: auto;
     margin-bottom: 20px;
     box-shadow: 5px 5px 5px gray;
@@ -57,7 +57,15 @@ header{
 
 #img3{
     border-radius: 10px;
-    width: 400px;
+    width: 300px;
+    height: auto;
+    margin-bottom: 10px;
+    box-shadow: 5px 5px 5px gray;
+}
+
+#img4{
+    border-radius: 10px;
+    width: 200px;
     height: auto;
     margin-bottom: 10px;
     box-shadow: 5px 5px 5px gray;
@@ -81,6 +89,8 @@ header{
     display: grid;
     grid-template-columns: 6fr 6fr;
 }
+
+
 
 .mainsection {
     border-top: 1px solid white;
@@ -114,25 +124,13 @@ header{
     height: auto;
 }
 
-.Topic{
-    font-size: 40px;
-    text-align: center;
-}
-.Topic-right{
-    font-size: 40px;
-    text-align: right;
-    margin-right: 20px;
-}
-.Topic-left{
-    font-size: 40px;
-    text-align: left;
-    margin-left: 20px;
-}
+
 
 
 /* พารากราฟ1 */
 .indexparagraph1{
     border-bottom: 1px solid black;
+    padding-bottom: 10px ;
 }
 
 .paragraph1picture{
@@ -165,6 +163,16 @@ footer{
 
 /* ************************************** My journey ******************************************************************* */
 
+.grid3{
+    display: grid;
+    grid-template-columns: 1fr 1fr 10fr;
+}
+
+.grid4{
+    display: grid;
+    grid-template-columns: 10fr 1fr 1fr;
+}
+
 .paragraph3{
     width: 100%;
     background-color: white;
@@ -179,13 +187,6 @@ footer{
     box-shadow: 5px 5px 5px gray;
 }
 
-.paragraph2picturegroup1{
-    float: left;
-}
-
-.paragraph2picturegroup2{
-    float: right;
-}
 
 footer{
     clear: both;
@@ -215,7 +216,7 @@ footer{
     color: #fff;
 }
 .CMDfontheader{
-    font-size: 40px;
+    font-size: 50px;
     font-weight: bold;
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
@@ -223,7 +224,28 @@ footer{
 }
 
 .CMDfont2{
-    font-size: 20px;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #000000;
+}
+
+.Topic{
+    font-size: 40px;
+    text-align: center;
+}
+.Topic-right{
+    font-size: 40px;
+    text-align: right;
+    margin-right: 20px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    color: #000000;
+}
+.Topic-left{
+    font-size: 40px;
+    text-align: left;
+    margin-left: 20px;
+    font-weight: bold;
     font-family: 'Courier New', Courier, monospace;
     color: #000000;
 }
@@ -233,12 +255,18 @@ footer{
 /* ************************************** condition ******************************************************************* */
 
 /* forphone */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
 
     .grid {
         display: block;
     }
     .grid2{
+        display: block;
+    }
+    .grid3{
+        display: block;
+    }
+    .grid4{
         display: block;
     }
     .centerText{
@@ -259,11 +287,20 @@ footer{
         width: 300px;
         height: auto;
     }
+    
     .video{
         width: 300px;
         height: auto;
     }
-
+    .paragraph3{
+        display: block;
+    }
+    .CMDfont2{
+        font-size: 18px;
+    }
+    .grid3{
+        display: block;
+    }
   }
 
   /* foripad */

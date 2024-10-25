@@ -4,32 +4,39 @@
 
 #tempolary
 
-<!-- พื้นหลัง -->
-    <div id="img3">
-        <p id ="img1TEXT">MyFuture</p>
-    </div>
-
-    <div class="paragraph3">
-        <p class="Topic">About MyFuture</p> 
+<div class="paragraph3 ">
+        <!-- หัวข้อ -->
+        <p class="Topic-left">About MySelf in CSTU </p> 
         <hr>
-
-        <div>
-            <div class="paragraph2picturegroup1">
-                <img class="paragraph2picture" src="resource/Picture/cnsa-banner2400.jpg" width="400" alt="Network">
-            </div>
-            
-            <p class="paragraphtext">I aim to be Network <span class="mark-text">Administrator and cybersecurity</span> in my career path.
-            Working with government is my ideal. I think isn't if i become a police officer with my skill. Perhaps, it will be tough way
-            but <span class="mark-text">it isn't matter</span>  </p>
-            <p class="paragraphtext"> I will look for job in other country like <span class="mark-text">germany,USA or british</span> 
-            but i don't think about moving to other country. Or i will find job in thailand. But i think i will not work forever, i will plan 
-            for <span class="mark-text">my retirement </span> like collect money, investing </p>
+        <div class="paragraph2picturegroup1">
+            <img id="img4" src="resource/LOGO/3332db2e45a36222e63ad99da6513cbc.png" alt="MyPicture">
         </div>
+        <div class="paragraph2picturegroup1">
+            <img id="img4" src="resource/Picture/2889-administratornetworking.jpgL.jpg" alt="MyPicture">
+        </div>
+        <p class="paragraphtext">I join GDSC for finding new experience because i think GDSC is the most
+             <span class="mark-text">interest</span> in my opinion. I aim working as 
+             <span class="mark-text">Network Security Administrator and Cyber Security</span>.Because i like this way.
+             Before i try Game Developing but i think isn't my way so i choose this way
+             .This path is very challenge for me because i think <span class="mark-text">reponsiblity and Awareness</span>  
+             is very important as knowledge like playing chess and know your enemy move while you develop your pieces
+        </p>
 
         <hr style="clear: both;">
 
-        <footer>
-            <p>THANK YOU._</p>
-        </footer>
-
+        <p class="Topic-right">How i prepare my self?</p>
+        <div class="paragraph2picturegroup2">
+            <img class="paragraph2picture" src="resource/Picture/Tux.svg.png" width="200px" alt="MyPicture">
+        </div>
+        <div class="paragraph2picturegroup2">
+            <img class="paragraph2picture" src="resource/Picture/unnamed.jpg" width="200px" alt="MyPicture">
+        </div>
+        <p class="paragraphtext">
+            Before we reach our goal, we must prepare our skill. First i search on internet and find some lecture that write about path career
+            because i need some directing. Second i should practice linux because <span class="mark-text">99% computer server use linux</span> so 
+            i practice my linux skill on <span class="mark-text">HACK THE BOX</span> (I'm not finish yet) and practice coding skill on <span class="mark-text">leetcode.</span> 
+            Websites that challenge you to solve thier problem with coding skill(i finish only 12 question lol)
+        </p>
+        <hr style="clear: both;">
+        <footer>THANK YOU._</footer>s
     </div>
