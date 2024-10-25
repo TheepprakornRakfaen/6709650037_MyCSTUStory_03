@@ -5,7 +5,8 @@
 
 body{
     background-image: url("resource/Background/5dc350fb8ef7a2c3dbdb1e3d4bc44083.gif");
-    background-color: #cccccc;
+    background-repeat: no-repeat;
+    background-size: cover;
     
 }
 
@@ -36,19 +37,14 @@ header{
     border-radius: 10px;
     width: 300px;
     height: auto;
+    margin-bottom: 20px;
 }
 
 #img3{
-    height: 50vh;
-    background-color: black;
-    background-image: url(resource/Background/Pxyz.gif);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    color: white;
-    opacity: 60%;
-    
+    border-radius: 10px;
+    width: 300px;
+    height: auto;
+    margin-bottom: 10px;
 }
 
 #img1TEXT{
@@ -65,6 +61,11 @@ header{
     grid-template-columns: 3fr 7fr 2fr;
 }
 
+.grid2{
+    display: grid;
+    grid-template-columns: 6fr 6fr;
+}
+
 .mainsection {
     border-top: 1px solid white;
 }
@@ -73,18 +74,18 @@ header{
     text-align: center;
     padding-top: 10px;
     background-color: black;
-    height: 100vh;
+    height: auto;
 }
 
 .articlemain{
     padding-top: 20px;
     background-color: white;
-    height: 100vh;
+    height: auto;
 }
 
 .adsmain{
     background-color: black;
-    height: 100vh;
+    height: auto;
 }
 
 .navsidebar{
@@ -109,14 +110,10 @@ header{
     margin-left: 20px;
 }
 
+
 /* พารากราฟ1 */
-.paragraph1{
-    font-family: 'Courier New', Courier, monospace;
-    background-color: white;
-    text-align: center;
-    width: 80%;
-    float: left;
-    padding-top: 20px;
+.indexparagraph1{
+    border-bottom: 1px solid black;
 }
 
 .paragraph1picture{
@@ -153,7 +150,7 @@ footer{
     margin-bottom: 20px;
 }
 
-/* My journey */
+/* ************************************** My journey ******************************************************************* */
 
 .paragraph3{
     width: 100%;
@@ -204,6 +201,11 @@ footer{
     font-family: 'Courier New', Courier, monospace;
     color: #fff;
 }
+.CMDfontheader{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: #000000;
+}
 
 .CMDfont2{
     font-family: 'Courier New', Courier, monospace;
@@ -214,7 +216,11 @@ footer{
 /* ************************************** condition ******************************************************************* */
 
 @media only screen and (max-width: 600px) {
+
     .grid {
+        display: block;
+    }
+    .grid2{
         display: block;
     }
     .centerText{
@@ -228,4 +234,9 @@ footer{
     }
   }
 
+  @media only screen and (max-width: 900px) {
+    .grid2{
+        display: block;
+    }
+  }
 
