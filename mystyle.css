@@ -3,8 +3,22 @@
     padding: 0px;
 }
 
-body{
+/* ภาพ background  */
+
+.main1{
     background-image: url("resource/Background/5dc350fb8ef7a2c3dbdb1e3d4bc44083.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.main2{
+    background-image: url("resource/Background/steamuserimages-a.akamaihd.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.main3{
+    background-image: url("resource/Background/Pxyz.gif");
     background-repeat: no-repeat;
     background-size: cover;
     
@@ -38,6 +52,7 @@ header{
     width: 400px;
     height: auto;
     margin-bottom: 20px;
+    box-shadow: 5px 5px 5px gray;
 }
 
 #img3{
@@ -45,6 +60,7 @@ header{
     width: 400px;
     height: auto;
     margin-bottom: 10px;
+    box-shadow: 5px 5px 5px gray;
 }
 
 #img1TEXT{
@@ -137,12 +153,9 @@ header{
     font-weight: bold;
 }
 
-.paragraph2picture{
-    clear: both;
-    margin:20px;
-    float: right;
-    display: inline;
-    box-shadow: 5px 5px 5px gray;
+.myfutureparagraph{
+   background-color: white;
+   padding: 20px;
 }
 
 footer{
@@ -260,3 +273,5 @@ footer{
     }
   }
 
+
+ 
