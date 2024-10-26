@@ -309,6 +309,9 @@ footer{
     .grid3{
         display: block;
     }
+    #img5{
+        width: 200px;
+    }
   }
 
   /* foripad */
